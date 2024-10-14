@@ -79,6 +79,6 @@ The project successfully developed a system capable of detecting offensive langu
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 The ViHSD dataset is available under the terms outlined in its repository at [ViHSD Dataset Repository](https://github.com/sonlam1102/vihsd).
