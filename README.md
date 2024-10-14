@@ -21,6 +21,7 @@ Social media has become an essential part of our daily communication, but it has
 5. [Dataset](#dataset)
 6. [Results](#results)
 7. [Conclusions](#conclusions)
+8. [License](#license)
 
 ## Background
 
@@ -59,7 +60,11 @@ The goal of this project is to develop a system for detecting and classifying of
 
 ## Dataset
 
-The **ViHSD** dataset is made up of comments related to entertainment, celebrities, and social issues. The comments are labeled as either *CLEAN* or *OFFENSIVE*, allowing for binary classification.
+The **ViHSD** dataset used in this project was taken from the following repository: [ViHSD Dataset](https://github.com/sonlam1102/vihsd).
+
+- **Description**: The dataset consists of user comments related to entertainment, celebrities, and social issues from various Vietnamese Facebook pages and YouTube videos. 
+- **Size**: 31,706 comments labeled as either *CLEAN* or *OFFENSIVE*.
+- **Data Splitting**: The dataset was divided into train, validation, and test sets using a 7:1:2 ratio.
 
 ## Results
 
@@ -68,10 +73,12 @@ The model demonstrates robust performance with the following metrics:
 - **F1-Score (Clean)**: 0.8341
 - **F1-Score (Offensive)**: 0.8368
 
-## Conclusion
+## Conclusions
 
 The project successfully developed a system capable of detecting offensive language in Vietnamese social media. Future improvements could focus on incorporating more Vietnamese slang and dialects to enhance the model's understanding of different regional variations in language use.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The ViHSD dataset is available under the terms outlined in its repository at [ViHSD Dataset Repository](https://github.com/sonlam1102/vihsd).
